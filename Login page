@@ -1,0 +1,33 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Ticket_System.Ticket.Loign" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head><body style="text-align:center">
+    <form id="form1" runat="server">
+        <div>
+            <h1>XPAY Life Bank</h1>
+            <h2>Welcome</h2>
+        </div>
+        <asp:Label ID="Label1" runat="server" Text="UserName:"></asp:Label>
+        <asp:TextBox ID="loginusername" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Label ID="Label2" runat="server" Text="Password:"></asp:Label>
+        <asp:TextBox ID="loginpasswrd" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" style="height: 26px" />
+        <asp:Button ID="Button2" runat="server" Text="Register" OnClick="Button2_Click" />
+        <asp:Button ID="Button3" runat="server" Text="Forgot Password" OnClick="Button3_Click" />
+        <asp:Label ID="loginerror" runat="server" Text=""></asp:Label>
+    </form>
+</body>
+</html>
+
+
+
+
+
